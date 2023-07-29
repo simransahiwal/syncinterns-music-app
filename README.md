@@ -16,4 +16,4 @@ HTML, CSS and JS.
 
 [Click to view this project.](https://simransahiwal.github.io/syncinterns-music-app/)
 
-LinkedIn : [@4ortyseve7](https://www.linkedin.com/in/simran-sahiwal/)
+LinkedIn : [Simran Sahiwal](https://www.linkedin.com/in/simran-sahiwal/)
