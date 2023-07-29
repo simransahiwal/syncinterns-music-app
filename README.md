@@ -1,6 +1,6 @@
 # SYNC INTERN'S 
 ## Task 3 : Music App
-## Quiz App by Simran.
+## Music App by Simran.
 
 This is my third task project for the July-August 2023 internship @SYNC INTERN'S.
 
