@@ -1,0 +1,88 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+.mainpage{
+    height:100vh;
+    width:100vw;
+    background-image: url('https://img.freepik.com/free-vector/modern-three-dimensional-spheres-background_79603-1449.jpg?size=626&ext=jpg&ga=GA1.1.1897209493.1671741710&semt=ais');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.musiccontainer{
+    height:80%;
+    width:30%;
+    margin:auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 5px rgb(166, 159, 159);
+    font-size: 20px;
+    padding:10px;
+}
+#songname{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #040404;
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 50px;
+}
+.imagecontainer{
+     height:280px;
+     width:250px;
+     border:2px solid rgb(16, 16, 16);
+    margin:auto;
+    border-radius: 50%;
+}
+#img{
+    height:280px;
+     width:250px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+   height:50px;
+   width:310px;
+   margin: auto;
+   margin-top:50px;
+}
+#prev{
+    height:35px;
+    width:35px; 
+  border-radius: 50%;
+  border:2px solid black;
+ padding:3px;
+}
+#song_play{
+  height:35px;
+  width:35px; 
+  border-radius: 50%;
+  border:2px solid black;
+ padding:3px;
+}
+#song_pause{
+    display : none;
+    height:35px;
+  width:35px; 
+  border-radius: 50%;
+  border:2px solid black;
+ padding:3px;
+}
+#next{
+  height:35px;
+  width:35px; 
+  border-radius: 50%;
+  border:2px solid black;
+  padding:3px;
+}
+#next:hover{
+    
+}
+.buttons:hover{
+    cursor:pointer;  
+}
