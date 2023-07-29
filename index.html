@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Webapp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mainpage">
+        <div class="musiccontainer">
+            <h1 id="songname">Closer</h1>
+            <h3 id="artist">The Chainsmokers ft.Halsey</h3>
+            <div class="imagecontainer">
+               <img src="./image/song-1.jpeg" id="img">
+            </div>
+            <div class="song">
+                <audio src="./music/song-1.mp3" id="song"></audio>
+            </div>
+            <div class="buttons">
+               <img src="https://png.pngitem.com/pimgs/s/149-1491487_left-arrow-less-than-arrow-in-png-transparent.png" id="prev" onclick="start(decrease())">
+               <img src="https://www.nicepng.com/png/detail/392-3926192_play-icon-free-download-png-and-vector-black.png" id="song_play" onclick="load()">
+               <img src="./image/pause.png" id="song_pause" onclick="load()">
+               <img src="https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/right-512.png" id="next" onclick="start(update())">
+            </div>
+        </div>
+    </div>
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
